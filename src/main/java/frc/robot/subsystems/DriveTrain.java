@@ -60,13 +60,6 @@ SpeedControllerGroup leftWheels = new SpeedControllerGroup(victorSPX3, victorSPX
  addChild("LeftWheels",leftWheels);
  
 
-victorSPX1 = new WPI_VictorSPX(12);
- 
- 
-
-victorSPX2 = new WPI_VictorSPX(13);
- 
- 
 
 SpeedControllerGroup rightWheels = new SpeedControllerGroup(victorSPX1, victorSPX2  );
  addChild("RightWheels",rightWheels);
